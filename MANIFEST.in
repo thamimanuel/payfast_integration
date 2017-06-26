@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include payfast_integration *.css
+recursive-include payfast_integration *.csv
+recursive-include payfast_integration *.html
+recursive-include payfast_integration *.ico
+recursive-include payfast_integration *.js
+recursive-include payfast_integration *.json
+recursive-include payfast_integration *.md
+recursive-include payfast_integration *.png
+recursive-include payfast_integration *.py
+recursive-include payfast_integration *.svg
+recursive-include payfast_integration *.txt
+recursive-exclude payfast_integration *.pyc
